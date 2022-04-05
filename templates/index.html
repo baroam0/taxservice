@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900">
+    <!--link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900"-->
     
     <link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
     <link rel="stylesheet" href="{% static 'css/fonts.css'%}">
@@ -73,9 +73,9 @@
                       <ul class="rd-navbar-nav">
                         <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
                         </li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">Tramites</a>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="tramites.html">Tramites</a>
                         </li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Planes</a>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="planes.html">Planes</a>
                         </li>
                       </ul>
                     </div>
@@ -89,46 +89,50 @@
       <!--Swiper-->
       <section class="section swiper-container swiper-slider swiper-slider-1 context-dark" data-loop="true" data-autoplay="5000" data-simulate-touch="false">
         <div class="swiper-wrapper">
-          <div class="swiper-slide" data-slide-bg="images/index-1-slider-1-1920x768.jpg">
+          <div class="swiper-slide" data-slide-bg="{% static 'images/oldbook.jpg'%}">
             <div class="swiper-slide-caption section-lg">
               <div class="container">
                 <div class="row">
                   <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
-                    <h1><span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100">Professional Accounting</span><span class="d-block text-light" data-caption-animate="fadeInUp" data-caption-delay="200">& Tax Services</span></h1>
-                    <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350">Providing every client with the attention they deserve.</p>
-                    <div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450"><a class="button button-secondary-text" href="#">Read more</a></div>
+                    <h1><span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100">Monotributo Express</span><span class="d-block text-light" data-caption-animate="fadeInUp" data-caption-delay="200">& Servicio Impositivos</span></h1>
+                    <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350">Dando a cada cliente la atención que merece.</p>
+                    <!--div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450"><a class="button button-secondary-text" href="#">Read more</a></div-->
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <!--div class="swiper-slide" data-slide-bg="images/index-1-slider-2-1920x768.jpg"-->
-          <div class="swiper-slide" data-slide-bg="{% static 'images/pencilgraph.jpg' %}"></div>
+
+          <div class="swiper-slide" data-slide-bg="{% static 'images/pencilgraph.jpg'%}">
             <div class="swiper-slide-caption section-lg">
               <div class="container">
                 <div class="row">
                   <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
-                    <h1><span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100">Full Accounting Support</span><span class="d-block text-light" data-caption-animate="fadeInUp" data-caption-delay="200">for Your Business</span></h1>
-                    <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350">Get rid of any accounting issues with our team’s assistance.</p>
-                    <div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450"><a class="button button-secondary-text" href="#">Read more</a></div>
+                    <h1><span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100">Monotributo Express</span><span class="d-block text-light" data-caption-animate="fadeInUp" data-caption-delay="200">& Servicio Impositivos</span></h1>
+                    <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350">Dando a cada cliente la atención que merece.</p>
+                    <!--div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450"><a class="button button-secondary-text" href="#">Read more</a></div-->
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="swiper-slide" data-slide-bg="images/index-1-slider-3-1920x768.jpg">
+
+          <div class="swiper-slide" data-slide-bg="{% static 'images/calc-graph.jpeg'%}">
             <div class="swiper-slide-caption section-lg">
               <div class="container">
                 <div class="row">
                   <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
-                    <h1><span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100">#1 Tax Services Provider</span><span class="d-block text-light" data-caption-animate="fadeInUp" data-caption-delay="200">Since the Late 1990s</span></h1>
-                    <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350">We offer specialist tax knowledge and full 24/7 support.</p>
-                    <div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450"><a class="button button-secondary-text" href="#">Read more</a></div>
+                    <h1><span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100">Monotributo Express</span><span class="d-block text-light" data-caption-animate="fadeInUp" data-caption-delay="200">& Servicio Impositivos</span></h1>
+                    <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350">Dando a cada cliente la atención que merece.</p>
+                    <!--div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450"><a class="button button-secondary-text" href="#">Read more</a></div-->
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          
+
+
         </div>
         <!--Swiper Pagination-->
         <div class="swiper-pagination-wrap">
@@ -297,7 +301,7 @@
       </section-->
 
       <!-- Latest Articles-->
-      <section class="section bg-default section-md">
+      <!--section class="section bg-default section-md">
         <div class="container">
           <h2 class="title-icon"><span class="icon icon-default mercury-icon-news"></span><span>Latest <span class="text-light">Articles</span></span></h2>
           <div class="box-image-small box-image-small-left">
@@ -317,7 +321,7 @@
             </div>
           </div>
         </div>
-      </section><a class="banner" href="https://www.templatemonster.com/website-templates/monstroid2.html" target="_blank"><img src="images/monstroid-big.jpg" alt="" height="0"></a>
+      </section><a class="banner" href="https://www.templatemonster.com/website-templates/monstroid2.html" target="_blank"><img src="images/monstroid-big.jpg" alt="" height="0"></a-->
       <footer class="section footer-classic">
         <div class="footer-inner-1">
           <div class="container">
@@ -342,6 +346,17 @@
                     </div>
                   </li>
                   <li>
+                  
+                  <li>
+                    <div class="unit unit-spacing-xs">
+                      <div class="unit-left">
+                        <div class="icon icon-sm icon-primary novi-icon mdi mdi-email"></div>
+                      </div>
+                      <a class="d-inline-block big" href="mailto:#">cpdanielchaller@hotmail.com</a>
+                    </div>
+                  </li>
+                  <li>
+
                     <!--div class="unit unit-spacing-xs">
                       <div class="unit-left">
                         <div class="icon icon-sm icon-primary novi-icon mdi mdi-clock"></div>
@@ -354,23 +369,29 @@
                       </div>
                     </div-->
                   </li>
-                </ul><a class="d-inline-block big" href="mailto:#">cpdanielchaller@hotmail.com</a>
+                
               </div>
               <div class="col-md-6 col-lg-5">
-                <h5>Links</h5>
+                <h5>Redes Sociales</h5>
                 <div class="row row-5 justify-content-between">
                   <div class="col-sm-6">
                     <ul class="footer-list big">
-                      <li><a href="#">IRS Publications</a></li>
-                      <li><a href="#">Record Retention Guide</a></li>
-                      <li><a href="#">Tax Due Dates</a></li>
+                      <li>
+                        <div class="fa fa-instagram"></div>
+                        <a href="#">Instagram</a>
+                      </li>
+                      <li>
+                        <div class="fa fa-facebook"></div>
+                        <a href="#">Facebook</a>
+                      </li>
+                      <!--li><a href="#">Tax Due Dates</a></li>
                       <li><a href="#">Tax Forms</a></li>
                       <li><a href="#">Tax Rates</a></li>
                       <li><a href="#">Where is my refund?</a></li>
-                      <li><a href="#">Retirement</a></li>
+                      <li><a href="#">Retirement</a></li-->
                     </ul>
                   </div>
-                  <div class="col-sm-4 col-lg-6 col-xxl-5">
+                  <!--div class="col-sm-4 col-lg-6 col-xxl-5">
                     <ul class="footer-list big">
                       <li><a href="#">Retirement</a></li>
                       <li><a href="#">Investment</a></li>
@@ -380,7 +401,7 @@
                       <li><a href="#">Money</a></li>
                       <li><a href="#">Other Resources</a></li>
                     </ul>
-                  </div>
+                  </div-->
                 </div>
               </div>
               <!--div class="col-md-12 col-lg-4">
